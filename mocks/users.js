@@ -6,7 +6,7 @@ module.exports = {
     id: params => Number(params.userId),
     name: () => faker.name.findName(),
     email: () => faker.internet.email(),
-    status: (params, query) => query.status,
-    lorem: true
+    mobile: () => faker.phone.phoneNumber(),
+    telegram: () => faker.internet.userName()
   }
 };
