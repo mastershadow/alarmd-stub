@@ -1,0 +1,12 @@
+{
+  "name": "alarmd-stub",
+  "version": "1.0.0",
+  "scripts": {
+    "mocks": "dyson mocks/"
+  },
+  "devDependencies": {
+    "dyson": "^2.0.0",
+    "faker": "^4.1.0",
+    "nodemon": "^1.14.11"
+  }
+}
